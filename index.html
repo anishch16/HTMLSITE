@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MBM College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="download.html">More info</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="enrollment.html">Enroll</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/a.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/b.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/c.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>						
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post">Short introdution</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">Student</p>
+			</footer>
+			<content>
+<p>
+	Madan Bhandari Memorial College, a non-profit making community institution, was established in 2001 to impart quality education at an affordable cost. The college offers a wide range of academic courses in XI, XII, BA, BBS, BBM, BCA, BScCSIT, and Masters Degree courses in Sociology, Journalism, and English. Since its inception, the college has achieved remarkable success in terms of quality education and infrastructural development. It has received generous help from many individuals and institutions for the enhancement of quality education and the development of infrastructural facilities. It is managed by a dedicated team of educationists, academics, and social workers.
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">Description</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by Prashant Chaulagain</p>
+			</footer>
+			<content>
+<p>Excellence in Leadership for Transformation As one of the best colleges in Kathmandu, Madan Bhandari Memorial College is committed to quality education. The college has revised its vision statement after a decade. The previous vision statement was “Excellence is our Motto.” Now it is “Excellence in Leadership for Transformation” implying the commitment to produce excellent workforce that capable not only to compete in the job market but to lead wherever they intend to work. High quality teaching learning environment is a must for this to materialize. The transformation is a catchword implying positive material and intellectual changes for the betterment of humanity; the leadership is an all-inclusive term referring to the inspiring quality in a person to lead the human civilization ahead the excellence implies the cultivation of good qualities in high degrees. Thus, the college aims to produce high quality workforce capable of leading all professional and amateur sectors, thereby bringing about noticeable progressive changes for the humanity and nation.
+
+</p>
+<video width="640" height="360" loop autoplay muted>
+    <source src="video/mbmvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+			</content>
+		</article>
+
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Join us today!</h3>
+		<p>Embark on an exciting learning journey with Informatics</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Your Boardroom Qualification</h3>
+		<p>A Degree to stand out from the crowd…...</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Be ahead of your peers</h3>
+		<p>Fast track your education with Informatics</p>
+	</article>
+</aside>
+<footer class="mainFooter">
+	<p>Copyright &copy <a href="https://www.facebook.com/mbmc.edu">madan-bhandari-memorial-college</a> </p>
+	<center>
+	<a href="https://www.facebook.com/mbmc.edu">Facebook</a>
+	<a href="https://www.instagram.com/explore/locations/572419756147786/madan-bhandari-memorial-college/">Instagram</a>
+	</center>
+</footer>
+
+</body>
+</html>

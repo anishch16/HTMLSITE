@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MBM College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="download.html">More info</a></li>
+			<li><a href="contact.html">Contact</a></li>
+            <li><a href="enrollment.html">Enroll</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+
+<body>
+    <header>
+        <h1>Enroll Now </h1>
+        <p>for quality of education</p>
+    </header>
+    <main>
+        <section>
+            <form action="/submit_enrollment_form" method="post">
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="course1">BScCSIT</option>
+                    <option value="course2">BCA</option>
+                    <option value="course3">Sociology</option>
+                    <option value="course3">BBM</option>
+                </select>
+                
+                <input type="submit" value="Enroll">
+            </form>
+        </section>
+    </main>
+    <footer class="mainFooter">
+        <p>Copyright &copy <a href="https://www.facebook.com/mbmc.edu">madan-bhandari-memorial-college</a> </p>
+        <center>
+        <a href="https://www.facebook.com/mbmc.edu">Facebook</a>
+        <a href="https://www.instagram.com/explore/locations/572419756147786/madan-bhandari-memorial-college/">Instagram</a>
+        </center>
+    </footer>
